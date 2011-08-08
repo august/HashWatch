@@ -70,4 +70,4 @@ Obviously, if a hacker can access your Document Root, they can disable any hash 
 
 Other Notes
 -----------
-Certainly, this isn't a perfect solution, and it's not 100% secure. But it should be enough to thwart all but the most persistent hacker.
+Certainly, this isn't a perfect solution, and it's not 100% secure. But it should be enough to thwart all but the most persistent hacker. Contributions are more than welcome.
