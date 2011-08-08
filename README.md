@@ -65,7 +65,7 @@ Example scripts in the **example** folder included in this repository.
 Security
 --------
 
-Obviously, if a hacker can access your Document Root, they can disable any hash checking you are doing. For that reason, we recommend you keep all documents outside the Document Root. This includes the Class itself, the config file, the hashes folder, and any scripts you're using to build or check the hashes.
+Obviously, if a hacker can access your Document Root, they can disable any hash checking you are doing. For that reason, we recommend you keep all HashWatch documents outside the Document Root. This includes the Class itself, the config file, the hashes folder, and any scripts you're using to build or check the hashes.
 
 
 Other Notes
