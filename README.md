@@ -3,7 +3,7 @@ HashWatch PHP Class
 
 The HashWatch class is designed to let you monitor files and folders on your website for tampering from hackers. HashWatch will watch the hashes of any file you choose, and you can then take action if any of those files change without your knowledge.
 
-This most often happens with .htaccess and index.php files, but HashWatch can monitor any file or folder you feel is important to maintain the integrity of.
+This most often happens with .htaccess and index.php files, but HashWatch can monitor any file or folder you feel is important to maintain the integrity of. Adding more files to be monitored is as easy as updating the config file.
 
 Obviously, you don't want to watch folders that intentionally change (upload folders, cache folders, etc.).
 
