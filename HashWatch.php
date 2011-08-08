@@ -63,7 +63,7 @@ class HashWatch {
     public function buildHashes($cleanup = true) {
         
         if (!is_writable($this->hash_folder_path))
-            throw new Exception('Cannot write hashes to specified Hash Directory: ' . $this->hash_folder_path);
+            throw new Exception('Cannot write hashes to specified Hash Directory: ' . $this->hash_folder_path . ' Please check the permissions on this folder and make sure it is writable by PHP.');
             
         $success = true;
         
@@ -72,6 +72,7 @@ class HashWatch {
         while (false !== ($file = $dir->read())) {
             unlink($this->hash_folder_path . $file);
         }
+        $dir->close();
         
         // loop through each of the file paths
         foreach ($this->paths_to_watch as $path) {
@@ -120,7 +121,8 @@ class HashWatch {
         }
         
         return $messages;
-    }
+        
+    } // compareHashes()
 
 } // class HashWatch
 
