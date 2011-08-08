@@ -14,7 +14,7 @@ $messages = $hw->compareHashes();
 if (!empty($messages)) {
 
     // you could email or SMS here, but we'll just echo out
-    echo 'WARNING! TAMPERING ALERT!' . PHP_EOL . PHP_EOL . (implode(PHP_EOL,$messages)) . PHP_EOL;
+    echo 'DANGER WILL ROBINSON! TAMPERING ALERT!' . PHP_EOL . PHP_EOL . (implode(PHP_EOL,$messages)) . PHP_EOL;
 
 } else {
 
