@@ -70,4 +70,6 @@ Obviously, if a hacker can access your Document Root, they can disable any hash 
 
 Other Notes
 -----------
-Certainly, this isn't a perfect solution, and it's not 100% secure. But it should be enough to thwart all but the most persistent hacker and alert you if something has changed on your site. Contributions are more than welcome, so please fork, improve, and merge. Thanks!
+Certainly, this isn't a perfect solution, and it's not 100% secure. But it should be enough to thwart all but the most persistent hacker and alert you if something has changed on your site. 
+
+Contributions are more than welcome, so please fork, improve, and merge. Thanks!

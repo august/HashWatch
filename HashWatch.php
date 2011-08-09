@@ -70,7 +70,9 @@ class HashWatch {
         // if $cleanup is specified (the default), remove all the files in the hashes folder
         $dir = dir($this->hash_folder_path);
         while (false !== ($file = $dir->read())) {
-            unlink($this->hash_folder_path . $file);
+        
+            if (!in_array($file,array('.','..')))
+                unlink($this->hash_folder_path . $file);
         }
         $dir->close();
         
